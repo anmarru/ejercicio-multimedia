@@ -8,10 +8,10 @@ concesionario. Para ello, coches será una lista que se inicializa vacía en la 
 Concesionario.*/
 
 // Clase Coche
-class Coche(val marca: String, val modelo: String, val año: Int) {
+class Coche(val marca: String, val modelo: String, val anio: Int) {
     // Método para mostrar información del coche
     fun mostrarInfo(): String {
-        return "Coche: Marca=$marca, Modelo=$modelo, Año=$año"
+        return "Coche: Marca=$marca, Modelo=$modelo, Año=$anio"
     }
 }
 
