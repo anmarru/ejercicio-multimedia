@@ -3,8 +3,7 @@ parámetro Int y un parámetro lambda, devuelva ese número tras aplicarle esa
 operación lambda.*/
 package com.ejercicios.tema1
 
-class Ejer4 {
-}
+
     fun funcionMatematica(numero: Int, operacion: (Int) -> Int): Int {
         return operacion(numero)
     }
